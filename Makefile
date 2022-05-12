@@ -9,4 +9,5 @@ env:
 	poetry install
 
 publish:
+	poetry version $(v)
 	poetry publish --build

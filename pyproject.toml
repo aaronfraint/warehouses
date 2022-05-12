@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "warehouses"
-version = "0.1.0"
+version = "0.1.3"
 description = "Python library to facilitate read/write of GIS and tabular data between Python and cloud warehouses"
 authors = ["aaronfraint <aaronfraint@icloud.com>"]
 license = "MIT"
