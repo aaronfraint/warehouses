@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "warehouses"
+version = "0.1.0"
+description = "Python library to facilitate read/write of GIS and tabular data between Python and cloud warehouses"
+authors = ["aaronfraint <aaronfraint@icloud.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+google-cloud-bigquery = "^3.1.0"
+geopandas = "^0.10.2"
+pandas-gbq = "^0.17.4"
+tqdm = "^4.64.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.2"
+jupyterlab = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
